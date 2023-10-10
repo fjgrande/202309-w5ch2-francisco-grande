@@ -1,8 +1,7 @@
 {
   "name": "202309-w5ch2-francisco-grande",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "main": "app/index.js",
   "scripts": {
     "start": "node",
     "start:dev": "node --watch",
@@ -35,5 +34,9 @@
         ]
       }
     }
+  },
+  "dependencies": {
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0"
   }
 }
